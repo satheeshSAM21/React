@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  padding: 5% 15%;
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.r1 {
+  width: 50%;
+  padding: 20px;
+}
+
+.r2 {
+  width: 50%;
+  background-color: rgb(243, 26, 73);
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.r1 input[type="text"],
+input[type="password"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: rgb(245, 235, 235);
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+.r1 strong {
+  margin: 0;
+  font-size: 11px;
+}
+
+.r1 button {
+  width: 100%;
+  margin-top: 15px;
+  background-color: rgb(243, 26, 73);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.check {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.check input[type="checkbox"] ~ checked {
+  background-color: rgb(243, 26, 73);
+  box-sizing: border-box;
+}
+.sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+.signup {
+  padding: 200px 0px;
+}
+
+.signup h2 {
+  margin: 0;
+}
+
+.signup button {
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.errorMsg {
+  display: block;
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+.hide_err {
+  display: none;
+}
